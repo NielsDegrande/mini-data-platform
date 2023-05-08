@@ -1,0 +1,30 @@
+trigger:
+  batch: "true"
+  branches:
+    include:
+      - develop
+      - release
+      - main
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  serviceConnection: # TODO
+
+stages:
+  - stage: CD
+    jobs:
+      - job: deploy
+        displayName: Deploy infrastructure.
+        steps:
+          - task: AzureCLI@2
+            displayName: "Deploy biceps"
+            inputs:
+              azureSubscription: $(serviceConnection)
+              scriptType: "bash"
+              scriptLocation: "inlineScript"
+              inlineScript: |
+                # TODO: Add environment handling.
+                # Complete mode to
+                az deployment group create --template-file bicep/main.bicep --parameters bicep/parameters/development.json --mode complete

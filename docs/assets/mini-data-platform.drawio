@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-05-08T08:27:07.661Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="eAh8Czkrc20RKbsBAryg" version="21.1.5" type="device">
+  <diagram name="Page-1" id="Cqq-nOcoEieGSCjvo7b9">
+    <mxGraphModel dx="1482" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.523;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-1" target="Qd1tGise1SL7lQhoHfdc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="481" y="240" />
+              <mxPoint x="342" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-1" value="&lt;div&gt;Databricks&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="258" width="62.8" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-2" target="Qd1tGise1SL7lQhoHfdc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-2" value="&lt;div&gt;Azure &lt;br&gt;&lt;/div&gt;&lt;div&gt;Data Factory&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="168" y="258" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-3" target="Qd1tGise1SL7lQhoHfdc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-3" value="&lt;div&gt;Storage&lt;/div&gt;&lt;div&gt;Account&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="308" y="266" width="65" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://delta.io/static/3bd8fea55ff57287371f4714232cd4ef/f3063/delta-lake-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="280" y="221.23" width="40" height="38.77" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-5" target="Qd1tGise1SL7lQhoHfdc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-5" value="Data Build Tool" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-6" target="Qd1tGise1SL7lQhoHfdc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-6" value="Database" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qd1tGise1SL7lQhoHfdc-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd1tGise1SL7lQhoHfdc-13" value="Key Vault" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="306.5" y="410" width="68" height="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

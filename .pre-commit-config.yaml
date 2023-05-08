@@ -1,0 +1,48 @@
+repos:
+  # General.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: pretty-format-json
+        args: [--autofix]
+      - id: requirements-txt-fixer
+      - id: sort-simple-yaml
+      - id: name-tests-test
+      - id: mixed-line-ending
+      - id: fix-encoding-pragma
+      - id: end-of-file-fixer
+      - id: detect-private-key
+      - id: debug-statements
+      - id: check-yaml
+      - id: check-symlinks
+      - id: check-merge-conflict
+      - id: check-json
+      - id: check-executables-have-shebangs
+      - id: check-docstring-first
+      - id: check-case-conflict
+      - id: check-byte-order-marker
+      - id: check-builtin-literals
+      - id: check-ast
+      - id: check-added-large-files
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+    rev: v1.3.1
+    hooks:
+      - id: python-safety-dependencies-check
+  # Markdown.
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.34.0
+    hooks:
+      - id: markdownlint
+  # Bash.
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 3.0.0
+    hooks:
+      - id: shellcheck
+        additional_dependencies: []
+  # SQL.
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 2.0.7
+    hooks:
+      - id: sqlfluff-fix
+      - id: sqlfluff-lint
